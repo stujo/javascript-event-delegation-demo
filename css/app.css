@@ -1,0 +1,16 @@
+.clickable {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #333;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.active {
+	background-color: lightgreen;
+}
+
+#clickable-container{
+	text-align: center;
+}
