@@ -5,7 +5,7 @@ $(document).ready(function() {
         $target.toggleClass('active');
     }
 
-    $('.clickable').click(clickHandler);
+    $('#clickable-container').on('click', '.clickable', clickHandler);
 
     function addWidget() {
         var $container = $('#clickable-container');
